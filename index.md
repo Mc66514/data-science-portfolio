@@ -1,11 +1,11 @@
 ---
 layout: default
-title: GUO XIAOCHEN — Data Science Portfolio
+title: Data Science Portfolio
 ---
 
-# GUO XIAOCHEN
+# Data Science Portfolio
 
-**Data science portfolio · MC66514 · Class G**
+**GUO XIAOCHEN · MC66514 · Class G**  
 CISC7204 Analysis of Media and Opinion Data, University of Macau
 
 I work on questions about **media attention and public opinion** — who looks at what, for how long,
