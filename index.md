@@ -51,6 +51,13 @@ overlap, so the ordering is a direction, not a settled fact.
 **One-sentence summary.** Public attention to a product halves in roughly eight months, then can
 return; attention to the underlying idea barely moves at all.
 
+**How to read the figure.** The vertical axis is logarithmic, so equal vertical distance means equal
+percentage change, and a constant decay rate is a straight line. The three articles differ in traffic
+by two orders of magnitude, which is why a linear axis was rejected: it would have pressed the two
+smaller series onto the baseline. Dashed vertical lines mark product releases, and the grey band is
+the common window used for the half-life fits in Figure 2. No data are filtered out, and no second
+y-axis is used, so no correlation is created by the chart form.
+
 **Scripts and notebooks.** `src/fetch_data.py` (API download and tidy table) · `src/analyze.py`
 (smoothing, peak/trough detection, log-linear fits, 2,000-resample block bootstrap) ·
 `src/make_figures.py` (both figures, with every number read from `outputs/results.json`).
@@ -60,6 +67,15 @@ return; attention to the underlying idea barely moves at all.
 domain), no credentials and no personal data.
 
 **Status.** **Completed** — pipeline, figures and documentation are finished and re-runnable.
+
+**What this project does not show.** Three things, stated on the page rather than buried in the
+repository. First, pageviews measure *curiosity, not opinion*: opening an encyclopaedia article
+records no sentiment, agreement or belief, so this is a measure of attention only. Second, it is
+single-platform and single-language — English Wikipedia — and cannot speak for social media,
+search, or Chinese-language attention, which may decay at a different rate. Third, the design is
+descriptive: the June-2025 rebound is measured but not explained, and the 95% intervals for the
+first two half-lives overlap, so the ordering of the three decay rates is a direction rather than a
+settled result. A reader should leave with the shape of the decline, not with a causal claim.
 
 ---
 
