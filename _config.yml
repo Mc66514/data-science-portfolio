@@ -1,0 +1,9 @@
+title: GUO XIAOCHEN — Data Science Portfolio
+description: Data science portfolio for CISC7204 Analysis of Media and Opinion Data, University of Macau. Project: the half-life of public attention on Wikipedia.
+author: GUO XIAOCHEN
+theme: minima
+
+# keep the site minimal: no download buttons, no social clutter
+minima:
+  skin: classic
+show_excerpts: false
